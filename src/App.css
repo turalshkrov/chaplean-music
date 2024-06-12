@@ -1,7 +1,24 @@
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-color: #141526;
+  color: #98A0A8;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  p {
+    font-size: 13px;
+  }
 }

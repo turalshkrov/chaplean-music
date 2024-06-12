@@ -1,0 +1,15 @@
+.stats-item {
+  h2 {
+    color: #EEE;
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .stats-item {
+    h2 {
+      color: #EEE;
+      font-size: 2rem;
+    }
+  }
+}

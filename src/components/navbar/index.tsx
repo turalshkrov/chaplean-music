@@ -4,7 +4,7 @@ import { useState } from "react";
 import './index.scss';
 
 const sections = [
-  { label: 'What is Chaplean', href: '#whatischaplean' },
+  { label: 'What is Chaplean', href: '#main' },
   { label: 'Our Difference', href: '#ourdifference' },
   { label: 'Pricing', href: '#pricing' },
   { label: 'Contact Us', href: '#contact' },
@@ -25,7 +25,7 @@ const Navbar = () => {
               {
                 sections.map(section => {
                   return(
-                    <li className='my-1 mt-lg-0' key={section.label}>
+                    <li className='my-1 my-lg-0' key={section.label}>
                       <a href={section.href} className='mr-lg-2'>{section.label}</a>
                     </li>
                   )

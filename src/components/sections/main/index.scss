@@ -1,0 +1,85 @@
+.main {
+  .main-title {
+    font-size: 4rem;
+    background: linear-gradient(to right, #58B7F8, #C6E8FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .download-btn {
+    border-radius: 12px;
+    border: none;
+    background: #292C3D;
+    color: #98A0A8;
+  }
+
+  .collabrations p {
+    color: #EEEEEE;
+  }
+
+  .large-text {
+    font-size: 2.5rem;
+    color: #EEEEEE;
+  }
+
+  .large-btn {
+    width: 300px;
+    border-radius: 1rem;
+    background: #292C3D;
+    border: 3px solid #58B7F8;
+
+    p {
+      color: #EEE;
+      text-align: left;
+    }
+
+    .play-btn {
+      border-radius: 16px;
+      padding: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #58B7F8;
+      border: none;
+      color: #EEE;
+    }
+  }
+}
+
+.btn-group {
+  width: fit-content;
+  display: flex;
+  border-radius: 1rem;
+  overflow: hidden;
+
+  button {
+    padding: 1rem 2rem;
+    border: none;
+    color: #EEE;
+    background: #292C3D;
+
+    &.active {
+      background: #1D9BF0;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    .main-title {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    .main-title {
+      font-size: 2rem;
+    }
+
+    .large-text {
+      font-size: 1.5rem;
+    }
+  }
+}

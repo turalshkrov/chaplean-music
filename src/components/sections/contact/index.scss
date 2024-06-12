@@ -1,0 +1,71 @@
+.contact-row {
+  align-items: stretch;
+  .info-div {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.contact-info-item {
+  color: #EEE;
+  svg {
+    color: #1D9BF0;
+  }
+}
+
+.contact-btn {
+  border: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+  padding: .75rem 3rem;
+  border-radius: 1rem;
+  background-color: #292C3D;
+  color: #EEE;
+  width: fit-content;
+}
+
+.send-message-card {
+  border-radius: 1.5rem;
+  background-color: #292C3D;
+  .card-title p {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #EEE;
+    text-align: center;
+  }
+  .message-form {
+    flex-direction: column;
+    input {
+      border: none;
+      border-bottom: 3px solid #98A0A8;
+      background-color: transparent;
+      padding: .5rem 0;
+      font-size: 1.25rem;
+      color: #EEE;
+      outline: none;
+      &:focus {
+        border-bottom-color: #1D9BF0;
+      }
+    }
+    .send-message-btn {
+      border: none;
+      background-color: #1D9BF0;
+      border-radius: .5rem;
+      padding: 0.75rem 2rem;
+      color: #EEE;
+      width: fit-content;
+    }
+  }
+}
+
+.social-icon {
+  svg {
+    color: #EEE;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contact-btn {
+    width: 100%;
+  }
+}

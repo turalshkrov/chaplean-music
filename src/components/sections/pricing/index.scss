@@ -1,0 +1,29 @@
+.price-item {
+  .item-card {
+    background-color: #292C3D;
+    height: 100%;
+    padding: 2rem;
+    padding-bottom: 6rem;
+    position: relative;
+    border-radius: 24px;
+    color: #EEE;
+    .price-label {
+      font-size: 20px;
+    }
+    .card-footer {
+      position: absolute;
+      bottom: 2rem;
+      z-index: 3;
+      left: 50%;
+      transform: translate(-50%);
+      button {
+        width: 100%;
+        padding: .75rem 3rem;
+        border: none;
+        border-radius: 8px;
+        background-color: #141526;
+        color: #EEE;
+      }
+    }
+  }
+}

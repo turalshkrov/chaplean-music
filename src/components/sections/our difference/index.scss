@@ -1,0 +1,32 @@
+.our-difference {
+  .item {
+    .icon {
+      border-radius: 50%;
+      background-color: #1D9BF0;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        width: 30px;
+        height: 30px;
+        color: #000000;
+      }
+    }
+    h2 {
+      color: #EEE;
+      font-weight: 500;
+      font-size: 1.75rem;
+    }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .our-difference {
+    .item {
+      h1 {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}

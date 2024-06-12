@@ -1,0 +1,21 @@
+.footer {
+  background-color: #292C3D;
+}
+
+.footer ul li {
+  color: #EEE;
+}
+
+.footer-btn {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 24px;
+  background-color: #141526;
+  color: #98A0A8;
+}
+
+@media screen and (max-width: 576px) {
+  .footer ul li {
+    font-size: 13px;
+  }
+}

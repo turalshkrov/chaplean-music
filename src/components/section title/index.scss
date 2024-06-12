@@ -1,0 +1,23 @@
+.section-title {
+  position: relative;
+  .br {
+    border-bottom: 1px solid #98A0A8;
+  }
+  h1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #141526;
+    font-weight: 500;
+    color: #EEE;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .section-title {
+    h1 {
+      font-size: 1.25rem;
+    }
+  }
+}
